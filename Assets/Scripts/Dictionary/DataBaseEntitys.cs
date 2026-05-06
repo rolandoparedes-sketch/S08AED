@@ -22,7 +22,7 @@ public class DataBaseEntitys : SerializedScriptableObject
             throw new System.Exception("La rareza definida no existe!!!");
         }
     }
-
+    //->removerlo a otra clase(? y copnectarlo con un game manager singleton
     public GameObject InstantitateEntity(Rarity rarity,Vector3 position)
     {
         GameObject obj = Instantiate(entityPrefab);
